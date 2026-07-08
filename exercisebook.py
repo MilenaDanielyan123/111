@@ -95,3 +95,85 @@
 
 #a = input("Enter your name and surname:") #Տրված է անուն և ազգանուն փոքրատառերով։ Տպել այնպես, որ յուրաքանչյուր բառ սկսվի մեծատառով։
 #print(a.title())
+
+#a = input("Enter some text:")#Տրված է նախադասություն։ Առաջին տառը դարձնել մեծատառ։
+#print(a.capitalize())
+
+#a = input("Enter some text:")#Տրված է տող։ Եթե այն ամբողջությամբ մեծատառ է, տպել OK, հակառակ դեպքում՝ այն դարձնել մեծատառ։
+#b = a.upper()
+#if a == b:
+#    print("OK")
+#else:
+#    print("Invalid")    
+
+#a = input("Enter some text:")
+#if a.isupper():
+#    print("Ok")
+#else:
+#    print(a.upper())   
+
+#a = input("Enter some text:")#. Տրված է տող։ Եթե այն ամբողջությամբ փոքրատառ է, տպել OK, հակառակ դեպքում՝ այն դարձնել փոքրատառ։
+#if a.islower():
+#    print("OK")
+#else:
+#    print(a.lower())   
+
+#a = input("Enter some text or digits:")# Տրված է տող։ Եթե այն բաղկացած է միայն թվանշաններից, տպել այդ թիվը կրկնապատկված, հակառակ դեպքում՝ ERROR։
+#if a.isdigit():
+#    b = int(a)
+#    print(b*2)
+#else:
+#    print("ERROR")    
+
+#a  = input("Enter some text or digits:")# Տրված է տող։ Եթե այն բաղկացած է միայն տառերից, տպել Letters Only, հակառակ դեպքում՝ Invalid։
+#if a.isalpha():
+#    print("Letters only")
+#else:
+#    print("Invalid")    
+
+#a = input("Enter somet text:")# Տրված է տող։ Եթե այն բաղկացած է միայն բացատներից, տպել Empty, հակառակ դեպքում՝ Not Empty։
+#if a.isspace():
+#    print("Empty")
+#else:
+#    print("Not empty")    
+
+#a = input("Enter some text:")#Տրված է տող։ Որոշել՝ այն պարունակում է գոնե մեկ բացատ։
+#if " " in a:
+#    print("There is a space in the text")
+#else:
+#    print("There is no space in the text")    
+
+#a = input("Enter a string:")#Տրված է տող։ Եթե նրա երկարությունը զույգ է, տպել Even, հակառակ դեպքում՝ Odd։
+
+#if len(a) % 2 ==0:
+#    print("Even")
+#else:
+#    print("Odd")    
+
+#a = input("Enter some text:")#3Տրված է տող։ Եթե նրա երկարությունը մեծ է 10-ից, տպել միայն առաջին 10 սիմվոլը։
+#print(a[:10])
+
+#a = input("Enter some text:")#Տրված է տող։ Եթե նրա երկարությունը փոքր է 5-ից, վերջում ավելացնել այնքան *, մինչև երկարությունը դառնա 5։
+#while len(a) < 5:
+#    a += "*"
+#print(a)
+
+#a = input("Enter the password:")#Տրված է գաղտնաբառ։ Որոշել՝ այն ունի՞ առնվազն 8 սիմվոլ, պարունակում է՞ գոնե մեկ մեծատառ և գոնե մեկ թվանշան։
+#hasu = False
+#hasd = False
+#for i in a:
+#    if i.isupper:
+#        hasu = True
+#    if i.isdigit:
+#        hasd = True
+#if len(a) >= 8 and hasu == True and hasd == True:
+#    print("Passed")                
+#else:
+#    print("Invalid password")    
+
+#a = input("Enter a string:")#Տրված է տող։ Եթե այն միաժամանակ սկսվում է մեծատառով և ավարտվում է "." սիմվոլով, տպել Correct, հակառակ դեպքում՝ Incorrect։
+#b = a[0]
+#if a.endswith(".") and b.isupper:
+#    print("Valid")
+#else:
+#    print("Invalid")    
