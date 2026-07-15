@@ -205,3 +205,39 @@
 #    b = b.replace(i, " ")
 #print(b)    
 
+#a = input("Enter some text:") #Մուտքագրել տող, և ջնջել դրա միջի բոլոր թվերը for ցիկլի միջոցով։
+#for i in a:
+#    if i.isdigit():
+#        a = a.replace(i, " ")
+#print(a)        
+
+#a = input("Enter some text:") #Մուտքագրել տեղ , օգտագործելով for ցիկլ և ջնջել այդ տողում եղած բոլոր տառերը։
+#for i in a:
+#    if i.isalpha():
+#        a = a.replace(i, " ")
+#print(a)
+
+#a = ["hello", "radar", "madam", "level"] #Ստեղծել տեղերից կազմված ցուցակ և for ցիկլի միջոցովհասկանալ թե արդյոք պոլինդրոմ են թե  ՝ ոչ։
+#for i in a:
+#    if i ==i[::-1]:
+#        print("The word is polyndrom")
+#   else:
+ #       print("The word is not polyndrom")    
+
+#a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]#Ստեղծել թվերի ցուցակ և for ցիկլի միջոցով տպել այն թվերը որոնք բաժանվում են 2-ի կամ 3-ի։
+#for i in a:
+#    if i %2 == 0 or i%3 == 0:
+#        print(i)
+
+#for i in range(100,1000): #for ցիկլի միձոցով տպել բոլոր այն եռանիշ թվերը որոնց առաջին և վերձին թվերի գումարը հավասար է մերկրերդ թվի կրկնապատիկին։
+#    if int(str(i)[0])+ int(str(i)[-1]) == int(str(i)[1]) * 2:
+#        print(i)
+
+#a = int(input("Enter a number:")) #Մուտքագրել թիվ, դարձնել այն տող և for ցիկլի միջոցով հաշվել նրա թվանշանների գումարը։
+#c = 0
+#b = str(a)
+#for i in range(len(b)):
+#    c += int(b[i])
+#print(c)    
+
+
