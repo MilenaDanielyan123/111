@@ -143,11 +143,65 @@
 #    print("The number is prime.")        
 #else:
 #    print("The number is not prime.")    
-     
-n = int(input("Enter a number:"))#Տրված է n թիվը։ Գտնել նրանից փոքր ամենամեծ պարզ թիվը։    
-for i in range(1, n, 1):
-    if n %i ==0:
-        print(i)
+
+#for i in range(1,11):#Օգտագործելով for ցիկլ ՝տպել 1-ից 10 թվերը։
+#    print(i)
+
+#a = 0 #Օգտագործելով for ցիկլ՝ հաշվել 1-ից 100 թվերի գումարը։
+#for i in range(1,101):
+#    a += i
+#print(a)    
         
+#for i in range(1,21): #Օգտագործելով for ցիկլ՝տպել 1-ից 20 ընկած միջակայքի բոլոր զույգ թվերը։
+#    if i %2 ==0:
+#        print(i)
+
+#for i in range(1,6): #Օգտագործելով for ցիկլ տպել <<Hello, world!>> 5 անգամ։
+#    print("Hello, world!")
+
+#a = [1, 2, 3, 4] #Ստեղծել թվային ցուցակ, օգտագործել for ցիկլ՝ տպելու համար ցուցակի բոլոր տարրերը։
+#for i in a:
+#    print(i)
+
+#a = [1, 2, 3, 4, 5] #Ստեղծել թվային ցուցակ, օգտագործել for ցիկլ՝ տպելու համար ցուցակի բոլոր տարրերը եռապատկված։
+#for i in a:
+#   print(3*i)
         
-        
+#a = 0 #Ստեղծել ցուցակ, for ցիկլը օգտագործելով հաշվել բոլոր տարրերի գումարը։
+#b = [1, 2, 3, 4, 5] 
+#for i in b:
+#    a += i
+#print(a)    
+
+#a = input("Enter some text:") #Մուտքագրել տող,for ցիկլն օգտագործելով տպել բոլոր տառերը։
+#for i in range(len(a)):
+#    print(a[i])
+
+#a = input("Enter some text:") #Մուտքագրել տող,for ցիկլի միջոցով տպել նրա զույգ ինդեքսով տարրերը։
+#for i in range(len(a)):
+#    if i %2 == 0:
+#        print(a[i])
+
+#a = int(input("Enter a number:")) #Մուտքագրել թիվ և հաշվել դրա ֆակտորյալը օգտագործելով for ցիկլը։
+#for i in range(1, a):
+#    a *= i
+#print(a)
+ 
+#for i in range(1,6): #Օգտագործել for ցիկլը և տպել 5 տեղանեց եռանկյուն ամեն տողոտմ ավելացնելով 1 "*"։
+#    i *= "*"
+#    print(i)
+
+#a = ["a", "e", "i", "o", "u"] #Մուտքագրել տող,for ցիկլն օգտագործելով հաշվել,թե քանի ձայնավոր կա։
+#b = input("Enter some text:") 
+#c = 0
+#for i in b:
+#    if i in a:
+#        c +=1
+#print(c)  
+
+#a = ["a", "e", "i", "o", "u"] #Մուտքագրել տող,օգտագործելով for ցիկլը ջնջել բոլոր ձայնավորները։
+#b = input("Enter some text:")
+#for i in a:
+#    b = b.replace(i, " ")
+#print(b)    
+
