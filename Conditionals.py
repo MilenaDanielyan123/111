@@ -177,3 +177,41 @@ if a.endswith(".") and b.isupper:
     print("Valid")
 else:
     print("Invalid")    
+
+
+name = input("Enter the text")
+
+if name == "Alice":
+    print("Hey there!")
+    salary = int(input())
+    if salary < 10000:
+        print("Sounds good")
+    else:
+        print("Let's discuss this a little")
+   
+else:
+    print("I don't know you")
+
+x = int(input())
+if 90 <= x <= 100:
+    print("A")
+elif 80 <= x <= 89:
+    print("B")
+elif 70<= x <= 79:
+    print("C")
+elif 60 <= x <= 69:
+    print("D")
+else:
+    print("F")
+
+
+a = int(input("Please enter the value of a " ""))
+b = int(input("Please enter the sign of b " ""))
+c = int(input("Please enter the value of c " ""))
+
+if (b <= a <= c) or (c <= a <= b):
+    print("The median is", a)
+elif (a <= b <= c) or (c <= b <= a):
+    print("The median is ",b)
+else:
+    print("The median is", c)
